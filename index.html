@@ -13,7 +13,7 @@
 <body>
     <header>
         <nav>
-            <div class="navbar bg-base-100">
+            <div class="navbar bg-base-100 shadow-2xl">
                 <div class="flex-1">
                     <a class="btn btn-ghost normal-case text-xl">Anik</a>
                 </div>
@@ -62,14 +62,14 @@
         </nav>
     </header>   
     <main>
-        <section>
+        <section class="card card-compact lg:w-1/3 h-96 bg-base-100  shadow-2xl hover:shadow-slate-600  block mx-auto my-5">
             <h1 class="text-center text-5xl font-semibold my-10 italic">Age Calculator</h1>
-            <div class="w-[10%] mx-auto">
+            <div class="w-[50%] lg:block mx-auto">
                 <input id="date-field" class="my-2 " type="text" placeholder="  date"><br>
                 <input id="month-field" class="my-2" type="text" placeholder="  month"><br>
                 <input id="year-field" class="my-2" type="text" placeholder="  year"><br>
             </div>
-            <button onclick="calculatiorBtn()" class="w-[20%] py-2 rounded hover:bg-teal-200  block mx-auto bg-sky-500  text-black  my-6">Calculation</button>
+            <button onclick="calculatiorBtn()" class="w-[35%] lg:w-[20%] py-2 rounded hover:bg-teal-200  block mx-auto bg-sky-500  text-black  my-6">Calculation</button>
             <div>
                 <h1 id="current-age" class="text-center font-bold text-2xl"></h1>
             </div>

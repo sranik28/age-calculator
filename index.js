@@ -16,7 +16,7 @@ calculatiorBtn = () => {
     }
     if (monthField > m1) {
         m1 = m1 + 12;
-        y1 = y1 - 1
+        y1 = y1 - 1;
     }
     const currentDate = d1 - dateField;
     const currentmonth = m1 - monthField;
